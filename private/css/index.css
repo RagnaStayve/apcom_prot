@@ -1,0 +1,63 @@
+/**{border: 1px solid black;}*/
+
+/*メインカラム*/
+#col-main {
+	background-color: steelblue;
+	text-align: center;
+	font-size: 75px;
+}
+/*メインカラム終わり*/
+
+/*サイドバー*/
+#sidebar {
+	display: none;
+}
+#sidebar div *{
+	padding: 15px 0 15px 10px;
+}
+#sidebar div table tr td a {
+	display: block;
+}
+#list {
+	display: block;
+	padding: 15px 0 15px 10px;
+}
+
+.btn-hm {
+	font-size: 30px;
+	padding: 0px 0px;
+	background-color: #ffffff00;
+}
+.btn-hm:hover,
+.btn-hm:focus {
+	outline: none;
+	color: #aaaaaa;
+}
+/*サイドバー終わり*/
+
+/*ヘッダーナビゲーション*/
+.navbar-img {
+	padding: 10px 10px;
+	border-radius: 6px;
+}
+.navbar-text {
+	margin-left: 5px
+}
+/*ヘッダーナビゲーション終わり*/
+
+/*その他*/
+.center{
+	text-align: center;
+}
+.floting {
+	position: fixed;
+	z-index: 1;
+}
+.all {
+	padding-top: 53px;
+}
+
+body{
+	background-color: ghostwhite;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}

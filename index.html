@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+
+	<!-- Bootstrap -->
+	<link href="flat-ui/css/bootstrap.min.css" rel="stylesheet">
+	<!-- flat-ui -->
+	<link href="flat-ui/css/flat-ui.css" rel="stylesheet">
+
+	<!-- 自作CSS -->
+	<link href="private/css/index.css" rel="stylesheet">
+	<link href="private/css/flat_pri.css" rel="stylesheet">
+
+	<!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="flat-ui/js/video.js"></script>
+	<script src="flat-ui/js/flat-ui.min.js"></script>
+	<script src="flat-ui/js/application.js"></script>
+	<script src="flat-ui/js/prettify.js"></script>
+	<script>
+		videojs.options.flash.swf = "flat-ui/js/video-js.swf"
+	</script>
+
+	<!-- 自作JS -->
+	<script src="private/js/index.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#">応用情報 ど.com</a>
+	</div>
+	<div id="navbar" class="navbar-collapse collapse navbar-right">
+		<a href="#"><img src="icon.jpg" class="navbar-brand navbar-img"></a>
+		<p class="navbar-text">ようこそ<a href="">ゲスト</a>さん</p>
+	</div>
+</div>
+</nav>
+
+<div class="container-fluid all">
+<div class="row">
+	<!-- サイドカラム -->
+	<button class="btn btn-hm fui-list floting" id="list"></button>
+	<div class="col-xs-2 floting" id="sidebar">
+		<div class="row">
+			<button class="btn btn-hm fui-cross" id="cross"></button>
+		</div>
+		<div class="row">
+			<table class="table table-border table-hover">
+				<tr class="info"><td><a href="#">トップページ</a></td></tr>
+				<tr><td><a href="#">結果閲覧</a></td></tr>
+				<tr><td><a href="#">学生管理</a></td></tr>
+				<tr><td><a href="#">模擬コード発行</a></td></tr>
+				<tr class="danger"><td><a href="#">ログアウト</a></td></tr>
+			</table>
+		</div>
+	</div>
+
+
+	<!-- メインカラム -->
+	<div class="col-xs-8 col-xs-offset-2" id="col-main">
+		メ<br>イ<br>ン<br>カ<br>ラ<br>ム<br>
+		<br><br><br><br><br><br><br><br><br>
+	</div>
+</div>
+</div>
+</body>
+</html>

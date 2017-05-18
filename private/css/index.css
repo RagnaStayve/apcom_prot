@@ -13,20 +13,20 @@
 	display: none;
 }
 #sidebar div *{
-	padding: 15px 0 15px 10px;
+	padding: 10px 0 10px 10px;
 }
 #sidebar div table tr td a {
 	display: block;
 }
 #list {
 	display: block;
-	padding: 15px 0 15px 10px;
+	padding: 10px 0 10px 10px;
 }
 
 .btn-hm {
 	font-size: 30px;
 	padding: 0px 0px;
-	background-color: #ffffff00;
+	background-color: #00000000;
 }
 .btn-hm:hover,
 .btn-hm:focus {
@@ -43,13 +43,17 @@
 .navbar-text {
 	margin-left: 5px
 }
+.dropdown-img {
+	width: 25px;
+	height: 25px;
+}
 /*ヘッダーナビゲーション終わり*/
 
 /*その他*/
 .center{
 	text-align: center;
 }
-.floting {
+.floating {
 	position: fixed;
 	z-index: 1;
 }
@@ -57,7 +61,7 @@
 	padding-top: 53px;
 }
 
-body{
+body {
 	background-color: ghostwhite;
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 }
